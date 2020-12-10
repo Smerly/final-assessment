@@ -1,0 +1,19 @@
+.Band {
+	padding-top: 5px;
+	padding-bottom: 40px;
+	border: 1px black solid;
+	background-color: rgb(240, 240, 240);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.BandInside {
+	margin-left: 10px;
+}
+
+.Bandgrid {
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 40px;
+}
